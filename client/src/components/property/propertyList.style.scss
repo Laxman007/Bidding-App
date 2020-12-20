@@ -1,0 +1,53 @@
+.text{
+    Color:Grey;
+    text-decoration: solid;
+    margin-bottom: 2%;
+    font-size: 40px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.linkcards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.control{
+    width: 70%;
+    height:5%;
+    padding:1%;
+    border-style: solid;
+    border-radius: 20px;
+    font-size: 15px;
+
+    margin-left:16%;
+    margin-right:3%;
+    box-shadow: inherit;
+    background-color: rgba(0,0,0,0.1);
+    color:grey;
+}
+.card{
+    flex: 0 1 25%;
+    margin:2%;
+    display:flex;
+    flex-direction: column;
+    img{
+        width: 100%;
+        height:80%;
+    }
+    font-size: 15px;
+    align-items: center;
+    li{
+        
+        text-decoration: none;
+        width: 100%;
+        text-align: center;
+    }
+    button{
+        margin:4%;
+        font-size: 13px;
+        &:hover{
+            background-color:rgb(18, 233, 115)
+        }
+    }
+}
